@@ -48,9 +48,6 @@ Add additional notes about how to deploy this on a live system
 * [Dash](https://dash.plot.ly/) - O framework de visualização de dados.
 * [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
 
-## Contributing
-
-http://balbi-site.s3-website-sa-east-1.amazonaws.com/
 
 ## Versioning
 
@@ -58,7 +55,7 @@ We use [SemVer](http://semver.org/) for versioning. For the versions available, 
 
 ## Authors
 
-* **Gabriel Machado** - *Initial work* - [Balbi Analytics](https://github.com/balbidatascience)
+* **Gabriel Machado** - [Balbi Analytics](http://balbi-site.s3-website-sa-east-1.amazonaws.com/)
 
 
 ## License
