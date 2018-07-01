@@ -6,7 +6,7 @@ Exemplo de aplicação Web para Dashboard de Dados.
 # Overview
 
 Dashboards Online são ótimos como soluções de monitoramento e acompanhamento de indicadores. 
-Uma excelente opção é o Dash, framework em Python baseado em Flask, PLotyly.js e React.js. Este projeto demonstra passo a passo como construir uma aplicação em Dash e hospeda-la em uma EC2 da AWS. 
+Uma excelente opção é o Dash, framework em Python baseado em Flask, Plotyly.js e React.js. Este projeto demonstra passo a passo como construir uma aplicação em Dash e hospeda-la em uma EC2 da AWS. 
 
 ## Getting Started
 
