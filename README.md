@@ -57,9 +57,11 @@ Clique em Launch Instance e selecione a Amazon Linux AMI 2018.03.0 (HVM), SSD Vo
 Para que o servidor tenha acesso ao bucket S3 com o fonte da aplicação vamos criar uma IAM role permitindo acesso da EC2 para o serviço S3 seguindo as etpadas:
 
 3.1. AWS Service
+
 ![Figure 1-3](https://d2908q01vomqb2.cloudfront.net/22d200f8670dbdb3e253a90eee5098477c95c23d/2017/11/15/1-trust1-693x630.png "Figure 1-3")
 
 3.2. Attach permissions policies 
+
 ![Figure 1-4](https://d2wh20haedxe3f.cloudfront.net/sites/default/files/4_7.png "Figure 1-4")
 
 3.3. Review 
@@ -69,7 +71,6 @@ Em Advanced Details copie o bootstrap abaixo para executarmos algumas tarefas ad
 
 ```
 #!/bin/bash
-
 sudo yum update -y
 sudo yum upgrade -y
 sudo yum install python36 -y
