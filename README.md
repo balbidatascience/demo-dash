@@ -12,7 +12,7 @@ Este projeto demonstra passo a passo como construir uma aplicação em Dash e ho
 
 ## Getting Started
 
-Para executar este projeto vamos utilizar python versão 3.6 ou superior. Para verificar sua versão utilize o comando abaixo:
+Para executar este projeto vamos utilizar python versão 3.6 ou superior. Verifique sua versão usando o comando abaixo:
 
 ```
 python --version 
