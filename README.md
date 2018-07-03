@@ -79,9 +79,11 @@ python36 -m venv env
 source ./env/bin/activate
 python36 -m pip install awscli
 aws s3 sync s3://balbi-demos/demo-dash /home/ec2-user/demo-dash
-cd demo-dash/
-sudo python36 -m pip install -r requirements.txt
+source
+sudo python36 -m pip install -r demo-dash/requirements.txt
 ```
+
+* O comando 'sudo python36 -m pip install -r demo-dash/requirements.txt' está com erro e não instala as dependências, para contornar, estou executando novamente no passo 7. * 
 
 O script encontra-se também no arquivo bootstrap.txt
 
@@ -107,12 +109,9 @@ Após acessar o servidor criado via SSH, navegar até o diretório da aplicaçã
 
 ```
 cd demo-dash
-
+sudo python36 -m pip install -r requirements.txt
+python36 main.py <<Private IPs>>
 ```
-
-
-
-
 
 ## References
 
